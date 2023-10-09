@@ -380,9 +380,11 @@ address {font-style: normal;}
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-soc-item:hover, .team-soc-item:focus .team-soc-link {
+.team-soc-link:hover {
     background-color: #404bbf;
 }
+
+.team-soc-link:focus {background-color: #404bbf;}
 
 /*============================================================================*/
 
@@ -563,6 +565,7 @@ address {font-style: normal;}
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-soc-item:hover, .footer-soc-item:focus .footer-soc-link {
+.footer-soc-link:hover, .footer-soc-link:focus {
     background-color: #31D0AA;
 }
+
